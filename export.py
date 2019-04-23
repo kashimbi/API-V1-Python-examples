@@ -1,8 +1,8 @@
 import urllib, urllib2, base64, json, csv, os
 
 # Fill in your API credentials
-API_ID 				= '3HUOQWVK0WDIH3N1I4CZXVESB'
-API_SECRET 			= 'sZTgiwMeeAtGRnvtmHGKAEYYs+Rr/uBh1djYAxiUwoM'
+API_ID 				= '7KRYW9NSGU86A5O28SF7L47XN'
+API_SECRET 			= '8zDH2nz3sHCctxE2J9RTLzE4A4g/IC4Xborlcd7o5HW'
 
 # Generate base64 encoded authorization string
 basicAuthString 	= base64.encodestring('%s:%s' % (API_ID, API_SECRET)).replace('\n', '')
@@ -10,7 +10,7 @@ basicAuthString 	= base64.encodestring('%s:%s' % (API_ID, API_SECRET)).replace('
 # Set startDate and endDate of timeseries
 # Could be an empty string to start with first measurement, or any datetime string according to the ISO-8601 standard
 startDate 				= '2016-06-30'
-endDate 				= '2016-07-11'
+endDate 				= '2019-04-24'
 
 # Function to request data from API
 def apiRequest (url, params = {}):
