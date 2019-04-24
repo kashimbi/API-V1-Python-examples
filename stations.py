@@ -1,8 +1,8 @@
 import urllib, urllib2, base64, json, csv
 
 # Fill in your API credentials
-API_ID 				= '3HUOQWVK0WDIH3N1I4CZXVESB'
-API_SECRET 			= 'sZTgiwMeeAtGRnvtmHGKAEYYs+Rr/uBh1djYAxiUwoM'
+API_ID 				= '7KRYW9NSGU86A5O28SF7L47XN'
+API_SECRET 			= '8zDH2nz3sHCctxE2J9RTLzE4A4g/IC4Xborlcd7o5HW'
 
 # Generate base64 encoded authorization string
 basicAuthString 	= base64.encodestring('%s:%s' % (API_ID, API_SECRET)).replace('\n', '')
